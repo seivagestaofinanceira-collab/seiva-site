@@ -1,0 +1,177 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  categories: [image]
+  extensions: [png, jpg, jpeg, webp, svg]
+content:
+  - name: site
+    label: Conteúdo do site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+          - name: seoTitle
+            label: "SEO Título"
+            type: string
+          - name: seoDescription
+            label: "SEO Descrição"
+            type: text
+          - name: whatsappNumber
+            label: "WhatsApp Número"
+            type: string
+          - name: whatsappMessage
+            label: "WhatsApp Mensagem"
+            type: text
+          - name: email
+            label: "email"
+            type: string
+          - name: heroEyebrow
+            label: "Capa Chamada"
+            type: string
+          - name: heroTitleLine1
+            label: "Capa Título Linha1"
+            type: string
+          - name: heroTitleLine2
+            label: "Capa Título Linha2"
+            type: string
+          - name: heroTitleEmphasis
+            label: "Capa Título Ênfase"
+            type: string
+          - name: heroDescription
+            label: "Capa Descrição"
+            type: text
+          - name: heroButton
+            label: "Capa Botão"
+            type: string
+          - name: heroImage
+            label: "Imagemm de capa (URL)"
+            type: string
+          - name: heroFootnote
+            label: "Capa Rodapé da capa"
+            type: string
+          - name: introTitle
+            label: "Apresentação Título"
+            type: string
+          - name: introTitleEmphasis
+            label: "Apresentação Título Ênfase"
+            type: string
+          - name: introParagraph1
+            label: "Apresentação Parágrafo1"
+            type: text
+          - name: introParagraph2
+            label: "Apresentação Parágrafo2"
+            type: text
+          - name: solutionsHeading
+            label: "Soluções Título"
+            type: string
+          - name: solutionsHeadingEmphasis
+            label: "Soluções Título Ênfase"
+            type: string
+          - name: service1Title
+            label: "Serviço 1 Título"
+            type: string
+          - name: service1Description
+            label: "Serviço 1 Descrição"
+            type: text
+          - name: service1Items
+            label: "Serviço 1 Itens"
+            type: text
+          - name: service2Title
+            label: "Serviço 2 Título"
+            type: string
+          - name: service2Description
+            label: "Serviço 2 Descrição"
+            type: text
+          - name: service2Items
+            label: "Serviço 2 Itens"
+            type: text
+          - name: service3Title
+            label: "Serviço 3 Título"
+            type: string
+          - name: service3Description
+            label: "Serviço 3 Descrição"
+            type: text
+          - name: service3Items
+            label: "Serviço 3 Itens"
+            type: text
+          - name: service4Title
+            label: "Serviço 4 Título"
+            type: string
+          - name: service4Description
+            label: "Serviço 4 Descrição"
+            type: text
+          - name: service4Items
+            label: "Serviço 4 Itens"
+            type: text
+          - name: service5Title
+            label: "Serviço 5 Título"
+            type: string
+          - name: service5Description
+            label: "Serviço 5 Descrição"
+            type: text
+          - name: service5Items
+            label: "Serviço 5 Itens"
+            type: text
+          - name: service5Note
+            label: "Serviço 5 Observação"
+            type: string
+          - name: methodEyebrow
+            label: "Como trabalhamos Chamada"
+            type: string
+          - name: methodTitle
+            label: "Como trabalhamos Título"
+            type: string
+          - name: methodTitleEmphasis
+            label: "Como trabalhamos Título Ênfase"
+            type: string
+          - name: methodDescription
+            label: "Como trabalhamos Descrição"
+            type: text
+          - name: methodImage
+            label: "Imagemm da seção Como trabalhamos (URL)"
+            type: string
+          - name: step1Title
+            label: "Etapa 1 Título"
+            type: string
+          - name: step1Description
+            label: "Etapa 1 Descrição"
+            type: text
+          - name: step2Title
+            label: "Etapa 2 Título"
+            type: string
+          - name: step2Description
+            label: "Etapa 2 Descrição"
+            type: text
+          - name: step3Title
+            label: "Etapa 3 Título"
+            type: string
+          - name: step3Description
+            label: "Etapa 3 Descrição"
+            type: text
+          - name: closingEyebrow
+            label: "Encerramento Chamada"
+            type: string
+          - name: closingTitle
+            label: "Encerramento Título"
+            type: string
+          - name: closingTitleLine2
+            label: "Encerramento Título Linha2"
+            type: string
+          - name: closingTitleEmphasis
+            label: "Encerramento Título Ênfase"
+            type: string
+          - name: contactTitle
+            label: "Contato Título"
+            type: string
+          - name: contactTitleEmphasis
+            label: "Contato Título Ênfase"
+            type: string
+          - name: contactDescription
+            label: "Contato Descrição"
+            type: text
+          - name: contactNote
+            label: "Contato Observação"
+            type: text
+          - name: tagline
+            label: "tagline"
+            type: text
